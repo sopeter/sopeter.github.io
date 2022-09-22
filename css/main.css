@@ -2359,13 +2359,18 @@
 			}
 
 			.image.captioned h3 {
-				margin-top: -2em;
+				margin-top: -0.5em;
 				margin-bottom: -0.6em;
+			}
+
+			.image.captioned h6 {
+				margin-top: 10px;
+				color: #bbb;
 			}
 
 			.image.captioned p {
 				margin-top: 10px;
-				color: #bbb;
+				color: #000;
 			}
 
 
