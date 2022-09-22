@@ -2368,6 +2368,7 @@
 				color: #bbb;
 			}
 
+
 		.image.main {
 			display: block;
 			margin: 0 0 3em 0;
@@ -2729,13 +2730,17 @@
 			width: 60em;
 		}
 
+		.wrapper.style1 {
+			background-color: #ffffff;
+		}
+
 		.wrapper.style2 {
 			background-color: #f6f6f6;
 		}
 
 		.wrapper.style3 {
 			background-attachment: fixed;
-			background-image: url("../img/overlay.png"), url("../img/banner.png");
+			background-image: url("../img/overlay.png"), url("../img/banner.jpeg");
 			background-position: center;
 			background-size: cover;
 		}
@@ -3088,9 +3093,9 @@
 	}
 
 	#banner {
-		padding: 16em 0 13em 0;
+		padding: 13em 0 13em 0;
 		background-attachment: fixed;
-		background-image: url("../img/overlay.png"), url("../img/banner.png");
+		background-image: url("../img/overlay.png"), url("../img/banner.jpeg");
 		background-position: center -100px;
 		background-size: cover;
 		line-height: 1.75;
