@@ -1,11 +1,10 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
-import "./globals.css";
-import Navbar from "@/components/Navigation/Navbar";
-import Footer from "@/components/Footer/Footer";
+import { Libre_Franklin } from "next/font/google";
 import "bootstrap/dist/css/bootstrap.min.css";
+import BootstrapClient from "@/components/BootstrapClient";
+import "@/app/customTheme.css";
 
-const inter = Inter({ subsets: ["latin"] });
+const libre = Libre_Franklin({ weight: "600", subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Peter So",
@@ -18,12 +17,11 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body className={inter.className}>
-        <Navbar/>
+    <html lang="en" data-bs-theme="custom">
+      <body className={libre.className}>
         {children}
-        <Footer/>
-        </body>
+        <BootstrapClient />
+      </body>
     </html>
   );
 }

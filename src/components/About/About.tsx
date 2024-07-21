@@ -1,17 +1,14 @@
-import React from 'react'
-import Banner from './Banner'
-import Skills from './Skills'
+import React from "react";
+import Banner from "./Banner";
+import Skills from "./Skills";
 
 const About = () => {
   return (
     <section id="about">
       <Banner />
+      <Skills />
     </section>
-    // <section id='about'>
-    //   <Banner />
-    //   <Skills />
-    // </section>
-  )
-}
+  );
+};
 
-export default About
+export default About;

@@ -1,0 +1,24 @@
+[data-bs-theme="custom"] {
+
+  
+  --bs-body-color: #95A2B6;
+  --bs-body-bg: #0f172A;
+  --bs-tertiary-bg: #ffffff;
+
+  .text-bg-primary {
+    background-color: #2E9CCA !important;
+    color:#ffffff !important;
+  }
+
+  .text-white {
+    color: #ffffff
+  }
+
+  .text-teal {
+    color: #2E9CCA;
+  }
+
+  .navBarBackground {
+    background-color: #0237a1;
+  }
+}
