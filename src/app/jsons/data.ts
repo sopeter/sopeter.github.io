@@ -2,10 +2,10 @@ export const experience = [
   {
     employer: "Flexcar",
     date: "January - September 2023",
-    title: "Software Engineer, Risk and Viability Team",
+    title: "Software Engineer, Risk and Viability",
     image: "flexcar.png",
     description:
-      "Worked as a backend engineer for the risk and viability team which was tasked to improve risk qualifications of new and existing customers on both the KYC and payment processing side of Flexcar. Developed multiple micro-services using Spring Boot to enhance the custom scoring of user's based on risk indices and configure prices based on user's risk scores. Integrated with multiple third party vendors to have external data in the Flexcar systems. Extensively communicated with stakeholders to launch Flexcar 2.0, which included customer risk-based pricing using rules engines.",
+      "I worked as a backend engineer for the Risk and Viability team at Flexcar, focusing on improving risk assessments for both new and existing customers in KYC and payment processing. I developed multiple microservices using Spring Boot to enhance custom scoring based on risk indices and configure pricing based on user risk scores. Additionally, I integrated third-party vendor data into Flexcar's systems and communicated extensively with stakeholders to launch Flexcar 2.0, which included implementing customer risk-based pricing using rules engines.",
     website: "https://www.flexcar.com/",
     skills: [
       "Java",
@@ -22,10 +22,10 @@ export const experience = [
   {
     employer: "Gilded",
     date: "January - July 2022",
-    title: "Software Engineer, Integration & Mobile App",
+    title: "Software Engineer Intern, Integration & Mobile App",
     image: "gilded.png",
     description:
-      "Primarily developed the main ETL pipeline for the Gilded tech stack. Utilized the cloud Azure ecosystem to asynchronously validate and transfer transaction data from blob storage to CosmosDB and the internal blockchain API. Additionally created a micro-service for the Mobile App team to receive generic user data and respond with descriptive sentences for the front-end.",
+      "I primarily developed the main ETL pipeline for the Gilded tech stack, utilizing the Azure cloud ecosystem to asynchronously validate and transfer transaction data from blob storage to CosmosDB and the internal blockchain API. Additionally, I created a microservice for the Mobile App team to receive generic user data and respond with descriptive sentences for the front-end.",
     website: "https://gildedco.com/",
     skills: [
       "Java",
@@ -43,7 +43,7 @@ export const projects = [
     name: "Tune",
     image: "tune.jpeg",
     description:
-      "Social web application that easily allows users to see trending songs, search for any song,and like songs. Additionally, allows users to follow other users and see which songs they liked. Utilizes the Spotify API to query songs and playlists.",
+      "Developed a social web application that allows users to see trending songs, search for any song, and like songs. Additionally, the application enables users to follow other users and see which songs they liked. It utilizes the Spotify API to query songs and playlists.",
     website: "https://github.com/sopeter/tune-react",
     skills: ["React.js", "Node.js", "MongoDB", "Typescript"],
   },
@@ -51,7 +51,7 @@ export const projects = [
     name: "NBA All Star Votes",
     image: "nba-all-stars.avif",
     description:
-      "A regression-based machine learning model to predict the number of All-Star votes for NBA players using their box and RAPTOR scores. Applied data pre-processing and visualization techniques to ensure high quality training data. Achieved 95.1% accuracy in predicting whether a player made the All-Star team",
+      "Developed a regression-based machine learning model to predict the number of All-Star votes for NBA players using their box and RAPTOR scores. Applied data pre-processing and visualization techniques to ensure high-quality training data. Achieved 95.1% accuracy in predicting whether a player made the All-Star team.",
     website:
       "https://github.com/sopeter/ai_ml-projects/tree/main/NBA_All_Star_Predictor",
     skills: ["Python", "Pandas", "Sklearn", "Machine Learning"],
@@ -60,7 +60,7 @@ export const projects = [
     name: "FHS Notes",
     image: "fhsNotes.png",
     description:
-      "iOS application for Fremd High School students to easily make notes. Allows users to organize notes by classes and date. Integrated with Firebase and Google Sign In for authenticated logins and data storage.",
+      "Developed an iOS application for Fremd High School students to easily make and organize notes by classes and date. Integrated with Firebase and Google Sign-In for authenticated logins and data storage.",
     website: "https://github.com/sopeter/fhsNotes",
     skills: ["Swift", "Objective C", "Firebase"],
   },
