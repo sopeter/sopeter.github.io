@@ -5,12 +5,12 @@ const Skills = () => {
   return (
     <div className="container mt-5 pt-3 card-bg rounded">
       <div className="row">
-        <div className="col-4 align-content-center">
+        <div className="col-md-4 align-content-center">
           <h2 className="text-white">SKILLS</h2>
           <p>LANGUAGES / FRAMEWORKS / TOOLS</p>
         </div>
 
-        <div className="col-8 ">
+        <div className="col-md-8">
           <ul className="list-unstyled">
             <li className="my-2">
               <strong className="text-white">Programming Languages:</strong>{" "}
