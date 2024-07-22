@@ -22,7 +22,7 @@ export const experience = [
   {
     employer: "Gilded",
     date: "January - July 2022",
-    title: "Software Engineer Intern, Integration & Mobile App",
+    title: "Software Engineer Co-op, Integration & Mobile App",
     image: "gilded.png",
     description:
       "I primarily developed the main ETL pipeline for the Gilded tech stack, utilizing the Azure cloud ecosystem to asynchronously validate and transfer transaction data from blob storage to CosmosDB and the internal blockchain API. Additionally, I created a microservice for the Mobile App team to receive generic user data and respond with descriptive sentences for the front-end.",
