@@ -11,11 +11,11 @@ type Props = {
 
 function ProjectCard(props: Props) {
   return (
-    <div className="card">
+    <div className="card border-0">
       <div className="row g-0">
         <div className="col-md-3">
-          <div className="container row h-100 w-auto align-items-center">
-            <img src={props.image} className="img-fluid" alt={props.name}></img>
+          <div className="container row h-100 w-100 align-items-center justify-content-center">
+            <img src={props.image} className="img-fluid w-auto" alt={props.name}></img>
           </div>
         </div>
         <div className="col-md-9">

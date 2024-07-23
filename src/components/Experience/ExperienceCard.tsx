@@ -16,7 +16,7 @@ function ExperienceCard(props: Props) {
     <div className="card border-0">
       <div className="row g-0 card-bg rounded">
         <div className="col-md-3">
-          <div className="container row h-100 w-auto align-items-center">
+          <div className="container row h-100 w-auto align-items-center justify-content-center">
             <img
               src={props.image}
               className="img-fluid"
