@@ -1,4 +1,16 @@
+import { title } from "process";
+
 export const experience = [
+  {
+    employer: "Twilio",
+    date: "September 2024 - Present",
+    title: "Software Engineer, Voice Automation",
+    image: "twilio-icon.svg",
+    description:
+      "Responsible for Twilio Conferences, Recordings, and Payments. ",
+    website: "https://www.twilio.com/",
+    skills: ["Java", "Python", "AWS", "SIP", "REST"],
+  },
   {
     employer: "Flexcar",
     date: "January - September 2023",
