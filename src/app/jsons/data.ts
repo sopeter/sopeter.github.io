@@ -7,7 +7,7 @@ export const experience = [
     title: "Software Engineer, Voice Automation",
     image: "twilio-icon.svg",
     description:
-      "Responsible for Twilio Conferences, Recordings, and Payments. ",
+      "Building and maintaining distributed systems for Twilio's real-time voice platform — Conferences, Recordings, and Payments. Work spans high-throughput Java and Python services on AWS, SIP protocol handling, and REST API design for low-latency communication infrastructure.",
     website: "https://www.twilio.com/",
     skills: ["Java", "Python", "AWS", "SIP", "REST"],
   },
